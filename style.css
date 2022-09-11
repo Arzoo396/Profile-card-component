@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+    font-size: 18px;
+    background-color: hsl(185, 75%, 39%);
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.top{
+    position: absolute;
+    left: -262px;
+    top: -625px;
+    z-index: -1;
+}
+
+.bottomimg{
+    position: absolute;
+    left: 690px;
+    top: 260px;
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+    align-items: center;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 0.625rem 0.625rem 0 0;
+    width: 350px;
+    height: 152px;
+}
+
+.first img {
+    display: block;
+    position: relative;
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 100px;
+    left: 0px;
+    top: -64px;
+
+}
+
+.second {
+
+    background-color: white;
+    width: 350px;
+    height: 260px;
+    border-radius: 0 0 0.625rem 0.625rem;
+    margin-top: -7.6rem;
+
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: 700;
+    margin-top: 5rem;
+    font-size: 20px;
+    color: hsl(229, 23%, 23%);
+}
+
+u {
+    text-decoration: none;
+    margin-left: 0.625rem;
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+    margin-top: 0.1rem;
+    font-weight: 500;
+}
+
+h5 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    margin-top: 0.6rem;
+
+}
+
+hr {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    
+}
+
+ul li {
+    display: inline;
+}
+
+.F {
+    color: hsl(229, 23%, 23%);
+    margin-left: 4rem;
+    font-weight: 700;
+}
+
+.G {
+    color: hsl(229, 23%, 23%);
+    margin-left: 3rem;
+    font-weight: 700;
+}
+
+.H {
+    color: hsl(229, 23%, 23%);
+    margin-left: 3rem;
+    font-weight: 700;
+}
+
+.J {
+    margin-left: 3.3rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+.K {
+    margin-left: 2.7rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+.L {
+    margin-left: 3.3rem;
+    color: hsl(227, 10%, 46%);
+    font-weight: 400;
+    font-size: 13px;
+    
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media (max-width:800px) {
+     body, html{
+        display: flex;
+        align-items: center;
+     }
+
+     .top{
+        position: absolute;
+        left: -262px;
+        top: -648px;
+        margin-left: -30rem;
+        z-index: -1;
+    }
+    
+    .bottomimg{
+        position: absolute;
+        left: 750px;
+        top: 260px;
+        margin-left: -34rem;
+        z-index: -1;
+        
+    }
+
+     .container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        margin-top: 0rem;
+    }
+    
+     .attribution {
+        font-size: 11px;
+        text-align: center;
+        margin-top: 36rem;
+        display: flex;
+        flex-direction: row;
+        margin-left: -20rem;
+    }
+}
